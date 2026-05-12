@@ -29,16 +29,6 @@ I am gaining both theoretical and hands-on experience in DevOps and cloud techno
 
 ---
 
-## 💡 Interests
-
-- Building and understanding real-world systems  
-- Automation and infrastructure engineering  
-- Problem solving in distributed systems  
-- System reliability and scalability  
-- Continuous learning and improving technical skills  
-
----
-
 ## 🎯 Goal
 
 I am aiming to begin my career in DevOps, gain hands-on production experience in real-world environments, and continuously evolve as a software engineer.
