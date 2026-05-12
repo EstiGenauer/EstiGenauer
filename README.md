@@ -17,7 +17,7 @@ I have a background in Computer Science from high school (11 units), where I dev
 I am gaining both theoretical and hands-on experience in DevOps, working with modern tools and technologies:
 
 - 🐳 Docker  
-- ☸️ Kubernetes (basic level)  
+- ☸️ Kubernetes 
 - 🔄 CI/CD pipelines  
 - ☁️ AWS (EC2, S3 – basic level)  
 - 🐧 Linux (commands & file system)  
@@ -54,4 +54,4 @@ I am looking to grow in the DevOps field, start my first role in the industry, g
 
 ## 📫 Contact
 
-📧 Email: your-email@example.com  
+📧 Email: genauer1997@gmail.com  
