@@ -8,7 +8,7 @@
 
 I am a DevOps Engineering student in the final stage of my program (towards Ministry of Labor certification).
 
-I have a background in Computer Science from high school (11 units), where I developed a strong interest in programming and systems, and realized I want to continue growing in the tech field.
+I have a background in Computer Science from high school (11 units), where I developed a strong interest in programming and systems, and realized I want to continue growing in the tech field. 
 
 ---
 
@@ -38,8 +38,9 @@ I am gaining both theoretical and hands-on experience in DevOps, working with mo
 
 ## 🎯 Goal
 
-I am looking to grow in the DevOps field, start my first role in the industry, gain real production experience, and continue learning and improving as an engineer.
+I am aiming to begin my career in DevOps, gain hands-on production experience in real-world environments, and continuously evolve as a software engineer.
 
+My current focus is DevOps and cloud technologies, with a strong ambition to transition into MLOps and contribute to building scalable, production-ready machine learning systems.
 ---
 
 ## 📦 Projects
