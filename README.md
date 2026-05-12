@@ -1,12 +1,6 @@
 
 # 👋 Hi, I'm Esti Genauer
 
-![DevOps](https://img.shields.io/badge/DevOps-Engineer%20in%20Training-blue)
-![AWS](https://img.shields.io/badge/AWS-Beginner-orange)
-![Docker](https://img.shields.io/badge/Docker-Learning-blue)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-Basic-lightblue)
-![Linux](https://img.shields.io/badge/Linux-Comfortable-yellow)
-![Git](https://img.shields.io/badge/Git-Version%20Control-red)
 
 ---
 
