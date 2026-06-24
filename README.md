@@ -21,10 +21,10 @@ I am gaining both theoretical and hands-on experience in DevOps and cloud techno
 - 🐳 Docker  
 - ☸️ Kubernetes (Deployments, Pods, Services, cluster operations)  
 - 🔄 CI/CD pipelines (GitHub Actions / Azure Devops)  
-- ☁️ AWS (EC2, S3 – foundational level)  
+- ☁️ AWS  
 - 🐧 Linux (commands, processes, file system, permissions)  
 - 🧑‍💻 Git & GitHub (version control, workflows)  
-- 🏗️ Terraform (Infrastructure as Code – basics)  
+- 🏗️ Terraform (Infrastructure as Code)  
 - 📊 Monitoring & Observability: Prometheus & Grafana  
 
 ---
