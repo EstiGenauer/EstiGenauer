@@ -1,6 +1,5 @@
 # 👋 Hi, I'm Esther Genauer
 
-[![Portfolio](https://img.shields.io/badge/View_My_Portfolio-Live-blue?style=for-the-badge&logo=googlechrome&logoColor=white)](https://estigenauer.github.io/MyWeb1/)
 ---
 
 ## 🚀 About Me
@@ -50,3 +49,6 @@ My current focus is DevOps and cloud technologies, with a strong interest in pro
 ## 📫 Contact
 
 📧 Email: genauer1997@gmail.com  
+
+
+[![Portfolio](https://img.shields.io/badge/View_My_Portfolio-Live-blue?style=for-the-badge&logo=googlechrome&logoColor=white)](https://estigenauer.github.io/MyWeb1/)
