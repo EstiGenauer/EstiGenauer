@@ -164,8 +164,7 @@ I am always looking for opportunities to learn, collaborate, and build better en
 GitHub:
 https://github.com/EstiGenauer
 
-LinkedIn:
-(Add your LinkedIn profile)
-
 Email:
 genauer1997@gmail.com
+
+
