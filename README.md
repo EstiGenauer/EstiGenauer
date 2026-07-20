@@ -16,6 +16,8 @@ My background combines Computer Science foundations with hands-on DevOps work ac
 
 I bring solid analytical thinking from a strong mathematics foundation, and I continuously deepen my skills through real infrastructure projects.
 
+I also work productively with **AI coding assistants** (such as **Cursor**) to accelerate research, infrastructure design, documentation, and day-to-day engineering — while keeping ownership of architecture decisions, security, and final review.
+
 ---
 
 ## What I Work With
@@ -28,6 +30,7 @@ I bring solid analytical thinking from a strong mathematics foundation, and I co
 | **Containers & Orchestration** | Docker, Kubernetes (Deployments, Pods, Services) |
 | **Observability** | CloudWatch, Grafana, Prometheus, Slack alerting |
 | **Security** | Least-privilege IAM, Secrets Manager, SSM (no public SSH), WAF, pipeline scanning |
+| **AI-assisted engineering** | Cursor and modern AI coding tools — faster delivery with human review |
 | **Platform** | Linux, Git / GitHub workflows |
 
 ---
