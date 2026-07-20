@@ -1,54 +1,70 @@
-# 👋 Hi, I'm Esther Genauer
+# Hi, I'm Esther Genauer
+
+**DevOps & Cloud Engineer** building secure, scalable AWS infrastructure with Terraform, CI/CD, and observability.
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white)](https://estigenauer.github.io/MyWeb1/)
+[![AWS Infrastructure](https://img.shields.io/badge/AWS_Infrastructure-SBL-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://github.com/EstiGenauer/AWS-infrastructure-for-SBL)
+[![Email](https://img.shields.io/badge/Email-genauer1997%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:genauer1997@gmail.com)
 
 ---
 
-## 🚀 About Me
+## About Me
 
-I am a DevOps Engineering student in the final stage of my program (towards Ministry of Labor certification).
+I design and implement cloud infrastructure with a strong focus on **security, automation, and operational clarity**.
 
-I have a background in Computer Science from high school (11 units), where I developed a strong interest in programming and systems, and decided to continue growing in the tech field with a focus on infrastructure and DevOps.
+My background combines Computer Science foundations with hands-on DevOps work across AWS, Infrastructure as Code, CI/CD, and monitoring. I enjoy turning complex systems into reliable, maintainable platforms — from networking and databases to pipelines and alerting.
 
-I also have a strong foundation in mathematics, which strengthens my analytical thinking, problem-solving abilities, and understanding of complex systems.
-
-I enjoy continuous learning and constantly expanding my knowledge in technology and engineering.
+I bring solid analytical thinking from a strong mathematics foundation, and I continuously deepen my skills through real infrastructure projects.
 
 ---
 
-## 🧠 What I’m Currently Learning
+## What I Work With
 
-I am gaining both theoretical and hands-on experience in DevOps and cloud technologies, working with modern tools and practices:
-
-- 🐳 Docker  
-- ☸️ Kubernetes (Deployments, Pods, Services, cluster operations)  
-- 🔄 CI/CD pipelines (GitHub Actions / Azure Devops)  
-- ☁️ AWS  
-- 🐧 Linux (commands, processes, file system, permissions)  
-- 🧑‍💻 Git & GitHub (version control, workflows)  
-- 🏗️ Terraform (Infrastructure as Code)  
-- 📊 Monitoring & Observability: Prometheus & Grafana  
-
----
-
-## 🎯 Goal
-
-I am aiming to begin my career in DevOps, gain hands-on production experience in real-world environments, and continuously evolve as a software engineer.
-
-My current focus is DevOps and cloud technologies, with a strong interest in progressing toward MLOps and building scalable, production-ready machine learning systems.
+| Area | Tools & practices |
+|------|-------------------|
+| **Cloud** | AWS (Elastic Beanstalk, RDS, IAM, VPC/SG, SSM, Secrets Manager, CloudWatch, WAF) |
+| **IaC** | Terraform (modules, multi-environment staging/prod) |
+| **CI/CD** | GitHub Actions, Azure DevOps, AWS CodePipeline / CodeBuild |
+| **Containers & Orchestration** | Docker, Kubernetes (Deployments, Pods, Services) |
+| **Observability** | CloudWatch, Grafana, Prometheus, Slack alerting |
+| **Security** | Least-privilege IAM, Secrets Manager, SSM (no public SSH), WAF, pipeline scanning |
+| **Platform** | Linux, Git / GitHub workflows |
 
 ---
 
-## 📦 Projects
+## Featured Project
 
-- Final DevOps Engineering project (academic) – applying DevOps principles in a complete system  
-- CI/CD pipeline implementations and experiments  
-- Dockerized application setups  
-- Kubernetes deployments and cluster operations practice  
+### [AWS Infrastructure for SBL](https://github.com/EstiGenauer/AWS-infrastructure-for-SBL)
+
+Production-oriented **Terraform** infrastructure for a SaaS platform:
+
+- Staging & production environments (Elastic Beanstalk + RDS PostgreSQL)
+- Automated CI/CD with CodePipeline / CodeBuild
+- Secure developer DB access via **SSM bastion** (port-forwarding, no public DB)
+- CloudWatch → SNS → Lambda → Slack alerts
+- Grafana Cloud integration with cross-account IAM (`AssumeRole` + External ID)
+- Production WAF and FinOps ASG schedules
 
 ---
 
-## 📫 Contact
+## Other Experience
 
-📧 Email: genauer1997@gmail.com  
+- End-to-end DevOps project work applying IaC, containers, and pipeline automation
+- CI/CD pipeline design and Dockerized application deployments
+- Kubernetes cluster practice (workloads, services, day-to-day operations)
 
+---
 
-[![Portfolio](https://img.shields.io/badge/View_My_Portfolio-Live-blue?style=for-the-badge&logo=googlechrome&logoColor=white)](https://estigenauer.github.io/MyWeb1/)
+## Focus & Direction
+
+My focus is **DevOps and cloud infrastructure** — shipping secure, observable systems in real environments.
+
+I'm also interested in growing toward **MLOps**: reliable pipelines and infrastructure for production machine learning systems.
+
+---
+
+## Contact
+
+- Email: [genauer1997@gmail.com](mailto:genauer1997@gmail.com)
+- Portfolio: [estigenauer.github.io/MyWeb1](https://estigenauer.github.io/MyWeb1/)
+- Infrastructure project: [AWS-infrastructure-for-SBL](https://github.com/EstiGenauer/AWS-infrastructure-for-SBL)
