@@ -8,12 +8,7 @@
 ![Docker](https://img.shields.io/badge/Docker-Containers-blue)
 ![Linux](https://img.shields.io/badge/Linux-System-yellow)
 
-I am a Junior DevOps Engineer passionate about building reliable, automated, and scalable cloud environments.
-
-I enjoy designing infrastructure, automating workflows, and solving complex technical challenges through Infrastructure as Code, containerization, CI/CD, and observability practices.
-
-My goal is to build systems that are secure, maintainable, and easy to operate — from development all the way to deployment and monitoring.
-
+DevOps Engineer with a software development background and strong passion for cloud-native technologies. Experienced in AWS infrastructure, Terraform, CI/CD automation and container orchestration. Interested in building scalable systems using Kubernetes, automation and modern DevOps practices.
 ---
 
 # 🚀 About Me
