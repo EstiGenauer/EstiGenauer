@@ -7,7 +7,7 @@
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Website-blue?style=flat-square&logo=google-chrome)](https://estigenauer.github.io/MyWeb1)
 [![Email](https://img.shields.io/badge/Email-genauer1997@gmail.com-red?style=flat-square&logo=gmail)](mailto:genauer1997@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://linkedin.com) <!-- ניתן להוסיף לינק במידת הצורך -->
+[![phone](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](0527627610) 
 
 </div>
 
