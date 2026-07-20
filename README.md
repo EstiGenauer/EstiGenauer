@@ -1,74 +1,85 @@
-````markdown
-# Hi, I'm Esther Genauer 👋
+# 👋 Esther Genauer
 
-### DevOps & Cloud Engineer
+## Junior DevOps Engineer | Cloud & Infrastructure Automation | Kubernetes
 
-I build secure, automated, and production-ready cloud infrastructure using AWS, Terraform, Kubernetes, Docker, and modern CI/CD pipelines.
+![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
+![Terraform](https://img.shields.io/badge/Terraform-IaC-purple)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-blue)
+![Docker](https://img.shields.io/badge/Docker-Containers-blue)
+![Linux](https://img.shields.io/badge/Linux-System-yellow)
 
-My focus is designing infrastructure that is scalable, maintainable, secure, and easy to operate.
+I am a Junior DevOps Engineer passionate about building reliable, automated, and scalable cloud environments.
+
+I enjoy designing infrastructure, automating workflows, and solving complex technical challenges through Infrastructure as Code, containerization, CI/CD, and observability practices.
+
+My goal is to build systems that are secure, maintainable, and easy to operate — from development all the way to deployment and monitoring.
 
 ---
 
-## 🚀 About Me
+# 🚀 About Me
 
-- ☁️ Passionate about Cloud Infrastructure & DevOps
-- 🔐 Strong focus on Security Best Practices
-- ⚙️ Infrastructure as Code with Terraform
-- 🐳 Containerization using Docker & Kubernetes
-- 🚀 CI/CD Automation with GitHub Actions & AWS
-- 📊 Monitoring & Observability using Prometheus, Grafana & CloudWatch
-- 🤖 Productive with AI-assisted engineering (Cursor) while maintaining full ownership of architecture, infrastructure, security decisions, and final implementation.
+- ☁️ Passionate about Cloud Infrastructure and DevOps engineering
+- 🏗️ Building Infrastructure as Code solutions using Terraform
+- 🐳 Experienced with Docker, Kubernetes, Helm, and containerized applications
+- 🔄 Creating CI/CD automation pipelines with GitHub Actions and cloud-native tools
+- 📊 Implementing monitoring and observability using Prometheus, Grafana, Loki, and CloudWatch
+- 🔐 Interested in cloud security, automation, and reliability engineering
+- 🤖 Using AI-assisted engineering tools while maintaining ownership of architecture, technical decisions, and implementation
+
+Currently expanding my DevOps experience through hands-on engineering projects and a practical DevOps program, focusing on cloud infrastructure, automation, CI/CD workflows, and troubleshooting real-world scenarios.
+
+I believe the best way to learn engineering is by building, breaking, debugging, and improving real systems.
 
 ---
 
 # 🛠 Tech Stack
 
 | Category | Technologies |
-|------------|-------------|
-| ☁️ Cloud | AWS (VPC, IAM, EC2, Elastic Beanstalk, RDS, S3, WAF, CloudWatch, Secrets Manager, Systems Manager) |
-| 🏗 Infrastructure as Code | Terraform (Modules, Variables, Remote State, Multi-Environment) |
-| 🚀 CI/CD | GitHub Actions • AWS CodePipeline • CodeBuild • Azure DevOps |
-| 🐳 Containers | Docker • Docker Compose • Kubernetes |
-| 📊 Monitoring | Prometheus • Grafana • CloudWatch • SNS • Lambda • Slack Alerts |
-| 🔐 Security | IAM • WAF • Least Privilege • Secrets Manager • SSM Session Manager |
-| 💻 Operating Systems | Linux |
-| 💾 Databases | PostgreSQL • RDS |
-| 🔧 Version Control | Git • GitHub |
+|-----------|--------------|
+| ☁️ Cloud | AWS (VPC, IAM, EC2, RDS, S3, CloudWatch, Secrets Manager, Systems Manager, WAF) |
+| 🏗 Infrastructure as Code | Terraform (Modules, Variables, Remote State, Environments) |
+| ☸️ Containers & Orchestration | Docker, Docker Compose, Kubernetes, Helm |
+| 🚀 CI/CD | GitHub Actions, AWS CodePipeline, AWS CodeBuild, Azure DevOps |
+| 📊 Monitoring & Observability | Prometheus, Grafana, Loki, Promtail, Alertmanager, CloudWatch |
+| 🔐 Security | IAM, Least Privilege, Secrets Management, Network Security |
+| 🐧 Operating Systems | Linux |
+| 💾 Databases | PostgreSQL, Amazon RDS |
+| 🔧 Version Control | Git, GitHub |
+| 💻 Programming | Python, Java, C#, JavaScript, TypeScript |
 
 ---
 
-# ⭐ Featured Project
+# ⭐ Featured Projects
 
-# AWS Infrastructure for SBL
+## ☁️ AWS Infrastructure for SBL
 
-Production-style AWS infrastructure fully provisioned with Terraform.
+A cloud infrastructure project designed with production principles using AWS and Terraform.
 
 ### Highlights
 
-- Built reusable Terraform modules for scalable infrastructure.
-- Created isolated **Staging** and **Production** environments.
-- Automated deployments using AWS CodePipeline and CodeBuild.
-- Configured secure database access through AWS Systems Manager (without exposing databases publicly).
-- Implemented production-grade monitoring using CloudWatch, SNS, Lambda and Slack notifications.
-- Integrated Grafana Cloud using cross-account IAM AssumeRole.
-- Applied security best practices including IAM least privilege, AWS WAF and Secrets Manager.
-- Implemented scheduled Auto Scaling for cost optimization.
+✅ Built reusable Terraform modules  
+✅ Created separated Staging and Production environments  
+✅ Automated infrastructure provisioning using Infrastructure as Code  
+✅ Built CI/CD workflows using AWS CodePipeline and CodeBuild  
+✅ Secured database access using AWS Systems Manager without public exposure  
+✅ Implemented monitoring and alerting using CloudWatch, SNS, Lambda, and Slack notifications  
+✅ Integrated Grafana Cloud using IAM AssumeRole  
+✅ Applied security best practices including IAM least privilege, WAF, and Secrets Manager  
+✅ Implemented Auto Scaling schedules for cost optimization  
 
----
-
-## 🏗 Architecture
+### Architecture
 
 ```text
 Developer
-     │
+    |
 GitHub Repository
-     │
-GitHub Actions
-     │
+    |
+CI/CD Pipeline
+    |
 Terraform
-     │
-──────────────────────────────────────────
-AWS
+    |
+AWS Cloud
+
 ├── VPC
 ├── Public / Private Subnets
 ├── Security Groups
@@ -77,89 +88,84 @@ AWS
 ├── IAM
 ├── Secrets Manager
 ├── Systems Manager
-├── WAF
+├── AWS WAF
 └── CloudWatch
-        │
+        |
        SNS
-        │
-     Lambda
-        │
+        |
+      Lambda
+        |
       Slack
-````
+🤖 AI Learning Platform
 
----
+View Repository
 
-# 📂 Featured Repositories
+End-to-End Cloud Native Learning Platform with AI integration.
 
-### ☁️ AWS Infrastructure for SBL
+A full-stack application built and deployed using modern DevOps practices.
 
-Production-ready Terraform infrastructure on AWS.
+Technologies
+React + TypeScript
+.NET Web API
+PostgreSQL
+Docker
+Kubernetes
+Helm
+GitHub Actions
+Prometheus
+Grafana
+Loki
+Features
 
----
+✅ JWT Authentication
+✅ AI-generated personalized learning content
+✅ Containerized application architecture
+✅ Kubernetes deployment
+✅ Automated CI/CD pipelines
+✅ Monitoring and logging infrastructure
+✅ Infrastructure automation
 
-### 🐳 AI Learning Platform
+🌍 Translator Platform
 
-Cloud-native learning platform built with:
+A containerized microservices-based translation application.
 
-* .NET Web API
-* React
-* PostgreSQL
-* Docker
-* Kubernetes
-* GitHub Actions
-* Prometheus
-* Grafana
+Technologies
+Node.js
+PostgreSQL
+Docker
+Kubernetes
+Helm
+LibreTranslate
+Implemented
 
-Features:
+✅ Dockerized services
+✅ Kubernetes deployments
+✅ Helm-based configuration management
+✅ Service communication architecture
+✅ CI/CD automation workflows
 
-* JWT Authentication
-* AI-generated learning content
-* Kubernetes deployment
-* Monitoring & Logging
-* CI/CD automation
+📚 Currently Learning
+Advanced AWS Architecture
+Production Kubernetes Patterns
+Platform Engineering
+MLOps Foundations
+FinOps and Cloud Cost Optimization
+🌱 Engineering Philosophy
 
----
+DevOps is not only about tools — it is about creating reliable systems and improving the way software is delivered.
 
-### 🌍 Translator Platform
+I enjoy understanding systems end-to-end:
+from application code, through infrastructure and automation, to deployment, monitoring, and continuous improvement.
 
-Containerized microservices application including:
+I am always looking for opportunities to learn, collaborate, and build better engineering solutions.
 
-* Node.js
-* PostgreSQL
-* LibreTranslate
-* Docker Compose
-* Kubernetes
-* Helm
+📫 Connect With Me
 
----
-
-# 📈 Currently Learning
-
-* Advanced AWS Services
-* Production Kubernetes
-* Platform Engineering
-* MLOps
-* FinOps
-
----
-
-# 📫 Connect with Me
-
-📧 **Email**
-
-[genauer1997@gmail.com](mailto:genauer1997@gmail.com)
-
-🌐 **Portfolio**
-
-https://estigenauer.github.io/MyWeb1
-
-💻 **GitHub**
-
+GitHub:
 https://github.com/EstiGenauer
 
----
+LinkedIn:
+(Add your LinkedIn profile)
 
-> *"Good infrastructure is invisible when everything works—and invaluable when something goes wrong."*
-
-```
-```
+Email:
+genauer1997@gmail.com
