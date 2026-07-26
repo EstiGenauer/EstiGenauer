@@ -24,7 +24,6 @@ Currently looking for a Junior DevOps / Cloud Infrastructure role where I can le
 - 🔄 Creating CI/CD automation pipelines with GitHub Actions and cloud-native tools
 - 📊 Implementing monitoring and observability using Prometheus, Grafana, Loki, and CloudWatch
 - 🔐 Interested in cloud security, automation, and reliability engineering
-- 🤖 Using AI-assisted engineering tools while maintaining ownership of architecture, technical decisions, and implementation
 
 Currently expanding my DevOps experience through hands-on engineering projects and a practical DevOps program, focusing on cloud infrastructure, automation, CI/CD workflows, and troubleshooting real-world scenarios.
 
