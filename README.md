@@ -34,13 +34,13 @@ I own the Core system's infrastructure and Git workflow, and work across the Com
 - Moved both repos to trunk-based delivery: a merge to `main` deploys to staging, and production deploys from a manual dispatch behind a GitHub Environment.
 - Backend deploy order: build an image tagged with the Git SHA, run the Alembic migrations as a one-shot ECS task with the same image (the deploy stops if they fail), roll the ECS service, then poll the health endpoint.
 - Frontend deploy: build, sync to S3 (long-lived cache for assets, no cache for HTML), invalidate CloudFront, smoke test.
-- Added hard-fail quality gates on pull requests: lint, format, types, migration checks, tests with coverage and a Docker build on the backend; ESLint, typecheck and Vitest on the frontend (test setup built from zero).
+- Added hard-fail quality gates on pull requests: lint, format, types, migration checks, tests with coverage and a Docker build on the backend; ESLint, typecheck and Vitest on the frontend (test setup built from zero). Sped up pipelines with Docker Buildx layer caching (GitHub Actions cache) and npm caching.
 - GitHub OIDC everywhere, with no stored AWS keys. Debugged a failing `AssumeRoleWithWebIdentity` by adding GitHub's org/repo-ID subject format to the IAM trust policy.
 
 **Access, security and containers**
 - Developer database access through SSM port-forwarding tunnels (no public database, no SSH), with a shared DML-only role for the developers of both systems, plus tunnel scripts and setup docs.
 - Runtime secrets flow from Secrets Manager into ECS task definitions. Scoped IAM access to Amazon Bedrock for the Compliance system's AI copilot and OCR.
-- Audited the Dockerfiles of both APIs and built hardened versions, tested locally: secrets only at runtime, one image for every environment, non-root read-only containers with all capabilities dropped, `tini` as PID 1, pinned base-image digests, and faster cold builds (3:08 → 1:53).
+- Audited the Dockerfiles of both APIs and hardened them: secrets only at runtime, one image for every environment, non-root read-only containers with all capabilities dropped, `tini` as PID 1, pinned base-image digests, and faster cold builds (3:08 → 1:53).
 - When a release needs it, I work in the application code too: Alembic migrations, HMAC-signed integration endpoints, and a production startup hotfix.
 
 ### Freelance Deployment Projects
