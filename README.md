@@ -1,6 +1,6 @@
 # 👋 Esther Genauer
 
-## Junior DevOps Engineer | Cloud & Infrastructure Automation | Kubernetes
+## DevOps & Cloud Engineer | Cloud & Infrastructure Automation | Kubernetes
 
 ![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
 ![Terraform](https://img.shields.io/badge/Terraform-IaC-purple)
@@ -8,13 +8,13 @@
 ![Docker](https://img.shields.io/badge/Docker-Containers-blue)
 ![Linux](https://img.shields.io/badge/Linux-System-yellow)
 
-I am a Junior DevOps Engineer with a software development background and hands-on experience building AWS infrastructure, CI/CD pipelines and Infrastructure as Code solutions.
+I am a DevOps & Cloud Engineer with a software development background and hands-on experience building AWS infrastructure, CI/CD pipelines and Infrastructure as Code solutions.
 
 During my DevOps internship, I worked on cloud infrastructure for SaaS environments using Terraform, AWS services, Docker and automation practices.
 
 I am passionate about cloud-native technologies, especially Kubernetes, and enjoy designing reliable, scalable and maintainable systems.
 
-Currently looking for a Junior DevOps / Cloud Infrastructure role where I can learn from experienced engineers and contribute to building modern platforms.
+Currently working as a DevOps Engineer at GEMIT Diamonds, a trade-finance startup, building AWS infrastructure with Terraform and CI/CD with GitHub Actions.
 
 # 🚀 
 
@@ -63,8 +63,8 @@ A cloud infrastructure project designed with production principles using AWS and
 ✅ Secured database access using AWS Systems Manager without public exposure  
 ✅ Implemented monitoring and alerting using CloudWatch, SNS, Lambda, and Slack notifications  
 ✅ Integrated Grafana Cloud using IAM AssumeRole  
-✅ Applied security best practices including IAM least privilege, WAF, and Secrets Manager  
-✅ Implemented Auto Scaling schedules for cost optimization  
+✅ Applied security best practices including IAM least privilege and Secrets Manager  
+✅ Defined AWS WAF and Auto Scaling cost-optimization schedules for production in Terraform  
 
 ### Architecture
 
@@ -79,8 +79,7 @@ Terraform
     |
 AWS Cloud
 
-├── VPC
-├── Public / Private Subnets
+├── Default VPC
 ├── Security Groups
 ├── Elastic Beanstalk
 ├── RDS PostgreSQL
@@ -95,61 +94,59 @@ AWS Cloud
       Lambda
         |
       Slack
-🤖 AI Learning Platform
+```
 
-View Repository
+## 🤖 AI Learning Platform
+
+[View Repository](https://github.com/EstiGenauer/ai-learning-platform)
 
 End-to-End Cloud Native Learning Platform with AI integration.
 
 A full-stack application built and deployed using modern DevOps practices.
 
-Technologies
-React + TypeScript
-.NET Web API
-PostgreSQL
-Docker
-Kubernetes
-Helm
-GitHub Actions
-Prometheus
-Grafana
-Loki
-Features
+### Technologies
 
-✅ JWT Authentication
-✅ AI-generated personalized learning content
-✅ Containerized application architecture
-✅ Kubernetes deployment
-✅ Automated CI/CD pipelines
-✅ Monitoring and logging infrastructure
-✅ Infrastructure automation
+React + TypeScript · .NET Web API · PostgreSQL · Docker · Kubernetes · Helm · GitHub Actions · Prometheus · Grafana · Loki
 
-🌍 Translator Platform
+### Features
+
+✅ JWT Authentication  
+✅ AI-generated personalized learning content  
+✅ Containerized application architecture  
+✅ Kubernetes deployment  
+✅ Automated CI/CD pipelines  
+✅ Monitoring and logging infrastructure  
+✅ Infrastructure automation  
+
+## 🌍 Translator Platform
+
+[View Repository](https://github.com/EstiGenauer/app-translator)
 
 A containerized microservices-based translation application.
 
-Technologies
-Node.js
-PostgreSQL
-Docker
-Kubernetes
-Helm
-LibreTranslate
-Implemented
+### Technologies
 
-✅ Dockerized services
-✅ Kubernetes deployments
-✅ Helm-based configuration management
-✅ Service communication architecture
-✅ CI/CD automation workflows
+Node.js · PostgreSQL · Docker · Kubernetes · Helm · LibreTranslate
 
-📚 Currently Learning
-Advanced AWS Architecture
-Production Kubernetes Patterns
-Platform Engineering
-MLOps Foundations
-FinOps and Cloud Cost Optimization
-🌱 Engineering Philosophy
+### Implemented
+
+✅ Dockerized services  
+✅ Kubernetes deployments  
+✅ Helm-based configuration management  
+✅ Service communication architecture  
+✅ CI/CD automation workflows  
+
+---
+
+# 📚 Currently Learning
+
+- Advanced AWS Architecture
+- Production Kubernetes Patterns
+- Platform Engineering
+- MLOps Foundations
+- FinOps and Cloud Cost Optimization
+
+# 🌱 Engineering Philosophy
 
 DevOps is not only about tools — it is about creating reliable systems and improving the way software is delivered.
 
@@ -158,12 +155,9 @@ from application code, through infrastructure and automation, to deployment, mon
 
 I am always looking for opportunities to learn, collaborate, and build better engineering solutions.
 
-📫 Connect With Me
+# 📫 Connect With Me
 
-GitHub:
-https://github.com/EstiGenauer
-
-Email:
-genauer1997@gmail.com
+- GitHub: https://github.com/EstiGenauer
+- Email: genauer1997@gmail.com
 
 
