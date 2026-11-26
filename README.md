@@ -1,45 +1,47 @@
 # 👋 Esther Genauer
 
-## DevOps & Cloud Engineer | Cloud & Infrastructure Automation | Kubernetes
+## DevOps & Cloud Engineer · AWS · Terraform · CI/CD · Kubernetes
 
 ![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
 ![Terraform](https://img.shields.io/badge/Terraform-IaC-purple)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI%2FCD-2088FF)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-blue)
 ![Docker](https://img.shields.io/badge/Docker-Containers-blue)
 ![Linux](https://img.shields.io/badge/Linux-System-yellow)
 
-🌐 **Portfolio:** [portfolio-esther-genauer.vercel.app](https://portfolio-esther-genauer.vercel.app)
+🌐 **Portfolio:** [portfolio-esther-genauer.vercel.app](https://portfolio-esther-genauer.vercel.app) · 📫 EstherGenauer@gmail.com
 
-I am a DevOps & Cloud Engineer with a software development background and hands-on experience building AWS infrastructure, CI/CD pipelines and Infrastructure as Code solutions.
+DevOps & Cloud Engineer at **GEMIT Diamonds**, a diamond trade-finance startup. I build and run the AWS platform with Terraform, ship it with GitHub Actions and OIDC, and give developers safe, fast access to what they need.
 
-During my DevOps internship, I worked on cloud infrastructure for SaaS environments using Terraform, AWS services, Docker and automation practices.
-
-I am passionate about cloud-native technologies, especially Kubernetes, and enjoy designing reliable, scalable and maintainable systems.
-
-Currently working as a DevOps Engineer at GEMIT Diamonds, a trade-finance startup, building AWS infrastructure with Terraform and CI/CD with GitHub Actions. I also take on freelance deployment projects.
-
-# 🚀 
-
-- ☁️ Passionate about Cloud Infrastructure and DevOps engineering
-- 🏗️ Building Infrastructure as Code solutions using Terraform
-- 🐳 Experienced with Docker, Kubernetes, Helm, and containerized applications
-- 🔄 Creating CI/CD automation pipelines with GitHub Actions and cloud-native tools
-- 📊 Implementing monitoring and observability using Prometheus, Grafana, Loki, and CloudWatch
-- 🔐 Interested in cloud security, automation, and reliability engineering
-
-Alongside my work, I keep building hands-on engineering projects, focusing on cloud infrastructure, automation, CI/CD workflows, and troubleshooting real-world scenarios.
-
-I believe the best way to learn engineering is by building, breaking, debugging, and improving real systems.
+I come from software development (C#, Python), so I read the code I deploy and can fix it when a release needs it. I also take on freelance deployment projects.
 
 ---
 
 # 💼 Experience
 
-### DevOps Engineer · GEMIT Diamonds (trade-finance startup) · 2026 – Present
+### DevOps Engineer · GEMIT Diamonds · 2026 – Present
 
-- Two-person DevOps team serving two systems and two development teams (Core and Compliance); primary owner of the Core system's infrastructure and the Git workflow.
-- Built the AWS platform with Terraform: VPC, ALB, ECS Fargate, RDS PostgreSQL, S3 + CloudFront, secured with IAM roles, private database, and SSM.
-- Designed GitOps-style CI/CD with GitHub Actions and OIDC: staging/production environments, DB migrations before rolling deploys, health checks, and automated quality checks (linting, tests, typechecking).
+*Diamond trade-finance marketplace · two-person DevOps team · two systems (Core and Compliance) and two development teams*
+
+I own the Core system's infrastructure and Git workflow, and work across the Compliance system's infrastructure too.
+
+**Cloud platform: AWS with Terraform**
+- Built the Core platform as Terraform modules with remote state in S3: VPC, ALB with path-based routing, ECS Fargate (Spot in staging), private encrypted RDS PostgreSQL 16 with SSL enforced, ECR, Secrets Manager, SQS with a dead-letter queue, WAF, and S3 + CloudFront for the React frontend.
+- Kept staging costs down with a NAT instance instead of a NAT Gateway and office-hours schedules that stop NAT, ECS and RDS outside working hours. Fixed NAT forwarding so it survives those restarts.
+- Terraform plans run on pull requests with a read-only IAM role.
+
+**CI/CD: GitHub Actions with OIDC**
+- Moved both repos to trunk-based delivery: a merge to `main` deploys to staging, and production deploys from a manual dispatch behind a GitHub Environment.
+- Backend deploy order: build an image tagged with the Git SHA, run the Alembic migrations as a one-shot ECS task with the same image (the deploy stops if they fail), roll the ECS service, then poll the health endpoint.
+- Frontend deploy: build, sync to S3 (long-lived cache for assets, no cache for HTML), invalidate CloudFront, smoke test.
+- Added hard-fail quality gates on pull requests: lint, format, types, migration checks, tests with coverage and a Docker build on the backend; ESLint, typecheck and Vitest on the frontend (test setup built from zero).
+- GitHub OIDC everywhere, with no stored AWS keys. Debugged a failing `AssumeRoleWithWebIdentity` by adding GitHub's org/repo-ID subject format to the IAM trust policy.
+
+**Access, security and containers**
+- Developer database access through SSM port-forwarding tunnels (no public database, no SSH), with a shared DML-only role for the developers of both systems, plus tunnel scripts and setup docs.
+- Runtime secrets flow from Secrets Manager into ECS task definitions. Scoped IAM access to Amazon Bedrock for the Compliance system's AI copilot and OCR.
+- Audited the Dockerfiles of both APIs and built hardened versions, tested locally: secrets only at runtime, one image for every environment, non-root read-only containers with all capabilities dropped, `tini` as PID 1, pinned base-image digests, and faster cold builds (3:08 → 1:53).
+- When a release needs it, I work in the application code too: Alembic migrations, HMAC-signed integration endpoints, and a production startup hotfix.
 
 ### Freelance Deployment Projects
 
@@ -47,7 +49,7 @@ I believe the best way to learn engineering is by building, breaking, debugging,
 
 ### DevOps Engineering Practicum · AWS Infrastructure for SBL · 2026
 
-- Designed AWS infrastructure for a SaaS platform: reusable Terraform modules, CodePipeline/CodeBuild CI/CD, and CloudWatch/Grafana monitoring.
+- Designed AWS infrastructure for a SaaS platform: reusable Terraform modules, CodePipeline/CodeBuild CI/CD, and CloudWatch/Grafana monitoring. Details below.
 
 ---
 
@@ -55,14 +57,14 @@ I believe the best way to learn engineering is by building, breaking, debugging,
 
 | Category | Technologies |
 |-----------|--------------|
-| ☁️ Cloud | AWS (VPC, IAM, EC2, RDS, S3, CloudWatch, Secrets Manager, Systems Manager, WAF) |
-| 🏗 Infrastructure as Code | Terraform (Modules, Variables, Remote State, Environments) |
+| ☁️ Cloud | AWS (ECS Fargate, ECR, ALB, VPC, RDS, S3, CloudFront, SQS, IAM, Secrets Manager, Systems Manager, WAF, CloudWatch, EC2, Bedrock) |
+| 🏗 Infrastructure as Code | Terraform (Modules, Remote State in S3, Environments, PR plans) |
 | ☸️ Containers & Orchestration | Docker, Docker Compose, Kubernetes, Helm |
-| 🚀 CI/CD | GitHub Actions, AWS CodePipeline, AWS CodeBuild, Azure DevOps |
+| 🚀 CI/CD | GitHub Actions (OIDC, Environments, trunk-based CD), Argo CD, AWS CodePipeline, AWS CodeBuild, Azure DevOps |
 | 📊 Monitoring & Observability | Prometheus, Grafana, Loki, Promtail, Alertmanager, CloudWatch |
-| 🔐 Security | IAM, Least Privilege, Secrets Management, Network Security |
+| 🔐 Security | IAM, Least Privilege, OIDC, Secrets Management, SSM tunnels, WAF, Trivy, TruffleHog |
 | 🐧 Operating Systems | Linux |
-| 💾 Databases | PostgreSQL, Amazon RDS |
+| 💾 Databases | PostgreSQL, Amazon RDS, Alembic migrations |
 | 🔧 Version Control | Git, GitHub |
 | 💻 Programming | Python, Java, C#, JavaScript, TypeScript |
 
