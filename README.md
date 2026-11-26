@@ -8,13 +8,15 @@
 ![Docker](https://img.shields.io/badge/Docker-Containers-blue)
 ![Linux](https://img.shields.io/badge/Linux-System-yellow)
 
+🌐 **Portfolio:** [portfolio-esther-genauer.vercel.app](https://portfolio-esther-genauer.vercel.app)
+
 I am a DevOps & Cloud Engineer with a software development background and hands-on experience building AWS infrastructure, CI/CD pipelines and Infrastructure as Code solutions.
 
 During my DevOps internship, I worked on cloud infrastructure for SaaS environments using Terraform, AWS services, Docker and automation practices.
 
 I am passionate about cloud-native technologies, especially Kubernetes, and enjoy designing reliable, scalable and maintainable systems.
 
-Currently working as a DevOps Engineer at GEMIT Diamonds, a trade-finance startup, building AWS infrastructure with Terraform and CI/CD with GitHub Actions.
+Currently working as a DevOps Engineer at GEMIT Diamonds, a trade-finance startup, building AWS infrastructure with Terraform and CI/CD with GitHub Actions. I also take on freelance deployment projects.
 
 # 🚀 
 
@@ -25,9 +27,27 @@ Currently working as a DevOps Engineer at GEMIT Diamonds, a trade-finance startu
 - 📊 Implementing monitoring and observability using Prometheus, Grafana, Loki, and CloudWatch
 - 🔐 Interested in cloud security, automation, and reliability engineering
 
-Currently expanding my DevOps experience through hands-on engineering projects and a practical DevOps program, focusing on cloud infrastructure, automation, CI/CD workflows, and troubleshooting real-world scenarios.
+Alongside my work, I keep building hands-on engineering projects, focusing on cloud infrastructure, automation, CI/CD workflows, and troubleshooting real-world scenarios.
 
 I believe the best way to learn engineering is by building, breaking, debugging, and improving real systems.
+
+---
+
+# 💼 Experience
+
+### DevOps Engineer · GEMIT Diamonds (trade-finance startup) · 2026 – Present
+
+- Two-person DevOps team serving two systems and two development teams (Core and Compliance); primary owner of the Core system's infrastructure and the Git workflow.
+- Built the AWS platform with Terraform: VPC, ALB, ECS Fargate, RDS PostgreSQL, S3 + CloudFront, secured with IAM roles, private database, and SSM.
+- Designed GitOps-style CI/CD with GitHub Actions and OIDC: staging/production environments, DB migrations before rolling deploys, health checks, and automated quality checks (linting, tests, typechecking).
+
+### Freelance Deployment Projects
+
+- Taking on deployment projects for clients.
+
+### DevOps Engineering Practicum · AWS Infrastructure for SBL · 2026
+
+- Designed AWS infrastructure for a SaaS platform: reusable Terraform modules, CodePipeline/CodeBuild CI/CD, and CloudWatch/Grafana monitoring.
 
 ---
 
@@ -158,6 +178,7 @@ I am always looking for opportunities to learn, collaborate, and build better en
 # 📫 Connect With Me
 
 - GitHub: https://github.com/EstiGenauer
-- Email: genauer1997@gmail.com
+- Email: EstherGenauer@gmail.com
+- Portfolio: https://portfolio-esther-genauer.vercel.app
 
 
